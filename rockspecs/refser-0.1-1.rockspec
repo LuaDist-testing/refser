@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "refser"
 version = "0.1-1"
--- LuaDist source
 source = {
-  tag = "0.1-1",
-  url = "git://github.com/LuaDist-testing/refser.git"
+	url = "git://github.com/lua4web/refser.git",
+	tag = "v0.1"
 }
--- Original source
--- source = {
--- 	url = "git://github.com/lua4web/refser.git",
--- 	tag = "v0.1"
--- }
 description = {
 	summary = "Fast serialization of tables with references",
 	detailed = [[refser allows to save primitive Lua types into strings and load them back. 
@@ -40,3 +32,4 @@ build = {
 		refser = "refser.lua"
 	}
 }
+

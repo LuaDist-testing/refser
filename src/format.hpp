@@ -10,13 +10,15 @@
 #define _FORMAT_MINF 'i'
 #define _FORMAT_NAN 'N'
 #define _FORMAT_NUMBER 'D'
-#define _FORMAT_NUMBER_DELIM '#'
 #define _FORMAT_STRING '"'
 #define _FORMAT_TABLE_START '{'
 #define _FORMAT_TABLE_END '}'
 #define _FORMAT_ARRAY_HASH_SEP '|'
 #define _FORMAT_TABLE_REF '@'
 
-#define is_int(x) (fmod(x, 1.0) == 0.0)
+#define _FORMAT_NUMBER_LEN 17
+#define _FORMAT_NUMBER_MAX 24
+
+#define is_int(x) (fmod((x), 1.0) == 0.0)
 
 #endif
